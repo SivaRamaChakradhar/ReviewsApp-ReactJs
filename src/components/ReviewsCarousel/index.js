@@ -29,8 +29,7 @@ class ReviewsCarousel extends Component {
   render() {
     const {currentIndex} = this.state
     const {reviewsList} = this.props
-    const {imgUrl, username, companyName, description} =
-      reviewsList[currentIndex]
+    const {imgUrl, username, companyName, description} = reviewsList[currentIndex]
 
     return (
       <div className="bg-container">
